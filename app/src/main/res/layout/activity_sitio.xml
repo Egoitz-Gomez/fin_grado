@@ -14,30 +14,14 @@
         tools:layout_editor_absoluteX="-2dp"
         tools:layout_editor_absoluteY="49dp" />
 
-    <Spinner
-        android:id="@+id/spinner"
-        android:layout_width="257dp"
-        android:layout_height="21dp"
-        tools:layout_editor_absoluteX="148dp"
-        tools:layout_editor_absoluteY="295dp" />
-
     <TextView
         android:id="@+id/textView5"
         android:layout_width="120dp"
         android:layout_height="29dp"
-        android:text="SITIO"
+        android:text="MUNICIPIO"
         android:textColor="#000000"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="295dp" />
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="382dp"
-        android:layout_height="201dp"
-        android:text="DATOS DEL SITIO SELECCIONADO"
-        android:textColor="#0C0404"
-        tools:layout_editor_absoluteX="14dp"
-        tools:layout_editor_absoluteY="340dp" />
 
     <Button
         android:id="@+id/button3"
@@ -55,5 +39,52 @@
         app:icon="@android:drawable/ic_menu_revert"
         tools:layout_editor_absoluteX="265dp"
         tools:layout_editor_absoluteY="636dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="110dp"
+        android:layout_height="43dp"
+        android:text="PCR: 40"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="343dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="115dp"
+        android:layout_height="41dp"
+        android:text=" POSITIVOS: 2 "
+        android:textColor="#000000"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="405dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="115dp"
+        android:layout_height="41dp"
+        android:text="NEGATIVOS: 38"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="467dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="197dp"
+        android:layout_height="223dp"
+        app:srcCompat="@drawable/grafico"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="324dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="243dp"
+        android:layout_height="20dp"
+        android:text="Barakaldo"
+        android:textColor="#0B0606"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="294dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
